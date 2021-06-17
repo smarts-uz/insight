@@ -1,1 +1,1 @@
-https://teamprodev.github.io/insightacademysite/
+https://teamprodev.github.io/insight
