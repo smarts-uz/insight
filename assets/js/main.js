@@ -99,17 +99,6 @@ sr.reveal(`.share__data, .speakers__img, .form_number`, {
     origin: 'right'
 })
 
-const ScriptURL = ''
-const form = document.forms['google-sheet']
-
-form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(ScriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => alert("Thanks for connection us...!"))
-        .catch(error => console.error('Error!', error.message))
-})
-
-
 
 
 
